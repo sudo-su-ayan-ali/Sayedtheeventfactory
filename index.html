@@ -3,451 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sayed The Event Factory | Premium Event Planning in Abu Road, Rajasthan</title>
-    <meta name="description" content="Sayed The Event Factory offers premium event planning services in Abu Road, Rajasthan. We specialize in weddings, corporate events, and private celebrations.">
+    <title>Sayed | The Event Factory</title>
+    <meta name="description" content="Premium event planning in Abu Road, Rajasthan.">
     
-    <!-- Google Fonts -->
+    <!-- Google Fonts: Inter & Space Grotesk -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome for Icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="dark-theme">
-    <!-- Custom Cursor -->
-    <div class="custom-cursor"></div>
-    <div class="cursor-trail"></div>
+<body>
+    <!-- Ambient Background -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Custom Mouse Glow (Desktop only) -->
+    <div class="mouse-glow"></div>
 
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">
-                <div class="logo-wrapper">
-                    <img src="logo/logo.png" alt="Sayed The Event Factory Logo" class="brand-logo">
-                </div>
+        <div class="container navbar-container">
+            <a href="#home" class="logo-text">
+                SAYED<span>.</span>
+                <div class="logo-sub">THE EVENT FACTORY</div>
             </a>
             <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Expertise</a></li>
+                <li><a href="#portfolio">Work</a></li>
             </ul>
             <div class="nav-cta">
-                <a href="#contact" class="btn btn-primary btn-3d">Plan Your Event</a>
+                <a href="#contact" class="btn btn-primary">Start Planning</a>
             </div>
             <div class="hamburger" id="hamburger">
-                <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
     </nav>
 
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <ul class="mobile-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Expertise</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
     <main>
         <!-- Hero Section -->
         <section id="home" class="hero">
-            <div id="hero-particles" class="particles-container"></div>
-            <div class="hero-content container">
-                <div class="hero-parallax-layer" data-speed="0.2">
-                    <h2 class="hero-subtitle">Premium Event Planning — Abu Road, Rajasthan</h2>
-                    <h1 class="hero-title">WE BUILD <span class="highlight">MOMENTS</span> THAT LAST A LIFETIME</h1>
-                    <div class="hero-btns">
-                        <a href="#portfolio" class="btn btn-outline">Explore Our Work</a>
-                        <a href="#contact" class="btn btn-primary btn-3d">Get a Free Quote</a>
-                    </div>
-                </div>
-            </div>
-            <div class="scroll-indicator">
-                <div class="mouse"></div>
-                <span>Scroll Down</span>
-            </div>
-        </section>
-
-        <!-- About Strip / Marquee -->
-        <section class="about-strip">
-            <div class="marquee">
-                <div class="marquee-content">
-                    <span>500+ Events</span>
-                    <span class="separator">|</span>
-                    <span>8+ Years</span>
-                    <span class="separator">|</span>
-                    <span>Pan-Rajasthan</span>
-                    <span class="separator">|</span>
-                    <span>1000+ Happy Clients</span>
-                    <span class="separator">|</span>
-                    <!-- Duplicate for seamless loop -->
-                    <span>500+ Events</span>
-                    <span class="separator">|</span>
-                    <span>8+ Years</span>
-                    <span class="separator">|</span>
-                    <span>Pan-Rajasthan</span>
-                    <span class="separator">|</span>
-                    <span>1000+ Happy Clients</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section (Detailed) -->
-        <section id="about" class="about-detailed section-padding">
             <div class="container">
-                <div class="about-grid">
-                    <div class="about-image">
-                        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop" alt="Sayed The Event Factory Team">
-                    </div>
-                    <div class="about-text">
-                        <h2 class="section-title">About Us</h2>
-                        <div class="underline" style="margin: 0 0 30px 0;"></div>
-                        <p>We provide comprehensive event planning services across Rajasthan, managing every aspect of an event from concept to execution. Our process begins with detailed planning and concept development, where we work closely with clients to define themes, establish budgets, and design the overall event experience.</p>
-                        <p>We assist in selecting and booking premium venues, including palaces, hotels, and resorts across major cities. Our team specializes in décor and design, offering customized floral arrangements, lighting, stage setups, and thematic styling. We also manage catering and hospitality services, ensuring high-quality food, guest accommodation, and seamless welcome experiences.</p>
-                        <p>Our entertainment solutions include DJs, live performers, traditional Rajasthani artists, and choreography for events such as sangeet ceremonies. On the event day, our team ensures complete on-site coordination and flawless execution. Beyond weddings, we also specialize in corporate events, private parties, and social gatherings, positioning ourselves as a one-stop solution for all event management needs in Rajasthan.</p>
+                <div class="hero-content">
+                    <p class="hero-label gs-reveal">Based in Rajasthan</p>
+                    <h1 class="hero-title">
+                        <span class="line-wrapper"><span class="line gs-title">Crafting</span></span>
+                        <span class="line-wrapper"><span class="line gs-title">the Extraordinary.</span></span>
+                    </h1>
+                    <p class="hero-subtitle gs-reveal">We manufacture unforgettable experiences, blending royal elegance with modern cinematic production.</p>
+                    <div class="hero-btns gs-reveal">
+                        <a href="#portfolio" class="btn btn-outline">View Portfolio</a>
+                        <a href="#contact" class="btn btn-primary ml-3">Let's Talk</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services Section -->
-        <section id="services" class="services section-padding">
+        <!-- Modern Bento Grid Services -->
+        <section id="services" class="bento-section">
             <div class="container">
-                <div class="section-header text-center">
-                    <h2 class="section-title">What We Create</h2>
-                    <div class="underline"></div>
+                <div class="section-header gs-reveal">
+                    <h2 class="section-title">Our Expertise</h2>
+                    <p class="section-subtitle">A factory of experiences tailored to you.</p>
                 </div>
-                <div class="services-grid">
-                    <!-- Service Card 1 -->
-                    <div class="service-card" data-tilt>
-                        <div class="card-inner">
-                            <div class="card-icon"><i class="fa-solid fa-rings-wedding"></i></div>
-                            <h3 class="card-title">Weddings & Ceremonies</h3>
-                            <p class="card-desc">Magical weddings crafted with royal Rajasthani elegance and modern touches.</p>
-                            <a href="#" class="btn-link">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                
+                <div class="bento-grid">
+                    <!-- Box 1 (Large 2x2) -->
+                    <div class="bento-box large gs-box">
+                        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop" alt="Weddings" class="bento-img parallax-img">
+                        <div class="bento-overlay"></div>
+                        <div class="bento-content">
+                            <div class="bento-icon"><i class="fa-solid fa-ring"></i></div>
+                            <h3>Royal Weddings</h3>
+                            <p>End-to-end planning for majestic celebrations, from palatial venues to customized floral designs.</p>
                         </div>
                     </div>
-                    <!-- Service Card 2 -->
-                    <div class="service-card" data-tilt>
-                        <div class="card-inner">
-                            <div class="card-icon"><i class="fa-solid fa-building"></i></div>
-                            <h3 class="card-title">Corporate Events</h3>
-                            <p class="card-desc">Professional management for conferences, seminars, and corporate galas.</p>
-                            <a href="#" class="btn-link">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                    
+                    <!-- Box 2 (Tall 1x2) -->
+                    <div class="bento-box tall gs-box">
+                        <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop" alt="Corporate" class="bento-img parallax-img">
+                        <div class="bento-overlay"></div>
+                        <div class="bento-content">
+                            <div class="bento-icon"><i class="fa-solid fa-building"></i></div>
+                            <h3>Corporate</h3>
+                            <p>Professional management for conferences, galas, and high-impact summits.</p>
                         </div>
                     </div>
-                    <!-- Service Card 3 -->
-                    <div class="service-card" data-tilt>
-                        <div class="card-inner">
-                            <div class="card-icon"><i class="fa-solid fa-cake-candles"></i></div>
-                            <h3 class="card-title">Birthday Celebrations</h3>
-                            <p class="card-desc">Unforgettable themed birthdays for all ages, filled with joy and surprises.</p>
-                            <a href="#" class="btn-link">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                    
+                    <!-- Box 3 (Normal 1x1) -->
+                    <div class="bento-box gs-box text-box">
+                        <div class="bento-content">
+                            <div class="bento-icon"><i class="fa-solid fa-cake-candles"></i></div>
+                            <h3>Birthdays</h3>
+                            <p>Themed, unforgettable private parties for all ages.</p>
                         </div>
                     </div>
-                    <!-- Service Card 4 -->
-                    <div class="service-card" data-tilt>
-                        <div class="card-inner">
-                            <div class="card-icon"><i class="fa-solid fa-users-rays"></i></div>
-                            <h3 class="card-title">Social Gatherings</h3>
-                            <p class="card-desc">Anniversaries, family reunions, and festive celebrations managed to perfection.</p>
-                            <a href="#" class="btn-link">Know More <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <!-- Service Card 5 -->
-                    <div class="service-card" data-tilt>
-                        <div class="card-inner">
-                            <div class="card-icon"><i class="fa-solid fa-rocket"></i></div>
-                            <h3 class="card-title">Product Launches</h3>
-                            <p class="card-desc">Strategic and high-impact launches to showcase your brand to the world.</p>
-                            <a href="#" class="btn-link">Know More <i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <!-- Service Card 6 -->
-                    <div class="service-card" data-tilt>
-                        <div class="card-inner">
-                            <div class="card-icon"><i class="fa-solid fa-masks-theater"></i></div>
-                            <h3 class="card-title">Themed Parties</h3>
-                            <p class="card-desc">Creative and immersive themed experiences that transport your guests.</p>
-                            <a href="#" class="btn-link">Know More <i class="fa-solid fa-arrow-right"></i></a>
+                    
+                    <!-- Box 4 (Wide 2x1) -->
+                    <div class="bento-box wide gs-box">
+                         <img src="https://images.unsplash.com/photo-1475721027785-f74dea327912?q=80&w=2070&auto=format&fit=crop" alt="Social" class="bento-img parallax-img">
+                         <div class="bento-overlay"></div>
+                         <div class="bento-content">
+                            <div class="bento-icon"><i class="fa-solid fa-users"></i></div>
+                            <h3>Social Gatherings & Launches</h3>
+                            <p>Strategic brand showcases and family reunions managed to absolute perfection.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Why Us Section -->
-        <section class="why-us section-padding">
+        <!-- Stats Strip -->
+        <section class="stats-strip gs-reveal">
             <div class="container">
-                <div class="why-us-grid">
-                    <div class="why-us-item">
-                        <div class="why-us-icon"><i class="fa-solid fa-lightbulb"></i></div>
-                        <h3>Creative Vision</h3>
-                        <p>Turning your dreams into breathtaking reality with our unique creative approach.</p>
+                <div class="stats-container">
+                    <div class="stat">
+                        <h4 class="counter" data-target="500">0</h4><span>+</span>
+                        <p>Events Executed</p>
                     </div>
-                    <div class="why-us-item">
-                        <div class="why-us-icon"><i class="fa-solid fa-clock"></i></div>
-                        <h3>On-Time Delivery</h3>
-                        <p>Meticulous planning ensuring every moment happens exactly when it should.</p>
+                    <div class="stat">
+                        <h4 class="counter" data-target="8">0</h4><span>+</span>
+                        <p>Years Experience</p>
                     </div>
-                    <div class="why-us-item">
-                        <div class="why-us-icon"><i class="fa-solid fa-wallet"></i></div>
-                        <h3>Budget Flexibility</h3>
-                        <p>Delivering premium experiences tailored to your specific financial planning.</p>
+                    <div class="stat">
+                        <h4 class="counter" data-target="50">0</h4><span>+</span>
+                        <p>Corporate Clients</p>
                     </div>
-                    <div class="why-us-item">
-                        <div class="why-us-icon"><i class="fa-solid fa-handshake"></i></div>
-                        <h3>End-to-End Management</h3>
-                        <p>From concept to cleanup, we handle everything so you can enjoy your event.</p>
+                    <div class="stat">
+                        <h4 class="counter" data-target="1000">0</h4><span>+</span>
+                        <p>Happy Families</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Portfolio Section -->
-        <section id="portfolio" class="portfolio section-padding">
+        <!-- Immersive Portfolio -->
+        <section id="portfolio" class="portfolio-section">
             <div class="container">
-                <div class="section-header text-center">
-                    <h2 class="section-title">Events We've Crafted</h2>
-                    <div class="underline"></div>
+                <div class="section-header gs-reveal">
+                    <h2 class="section-title">Selected Work</h2>
                 </div>
-                <div class="portfolio-filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="weddings">Weddings</button>
-                    <button class="filter-btn" data-filter="corporate">Corporate</button>
-                    <button class="filter-btn" data-filter="birthdays">Birthdays</button>
+            </div>
+            <div class="portfolio-slider">
+                <div class="port-item gs-port">
+                    <div class="port-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop" alt="Event 1" class="parallax-img">
+                    </div>
+                    <div class="port-info">
+                        <h4>Tech Summit</h4>
+                        <p>Jaipur</p>
+                    </div>
                 </div>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item weddings" data-aos="fade-up">
-                        <div class="portfolio-img">
-                            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop" alt="Wedding Event">
-                            <div class="portfolio-overlay">
-                                <h3>Royal Rajasthani Wedding</h3>
-                                <span>Udaipur, Rajasthan</span>
-                            </div>
-                        </div>
+                <div class="port-item gs-port">
+                    <div class="port-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1530103043960-ef38714abb15?q=80&w=2070&auto=format&fit=crop" alt="Event 2" class="parallax-img">
                     </div>
-                    <div class="portfolio-item corporate" data-aos="fade-up">
-                        <div class="portfolio-img">
-                            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop" alt="Corporate Event">
-                            <div class="portfolio-overlay">
-                                <h3>Tech Innovation Summit</h3>
-                                <span>Jaipur, Rajasthan</span>
-                            </div>
-                        </div>
+                    <div class="port-info">
+                        <h4>Enchanted Birthday</h4>
+                        <p>Mount Abu</p>
                     </div>
-                    <div class="portfolio-item weddings" data-aos="fade-up">
-                        <div class="portfolio-img">
-                            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=2070&auto=format&fit=crop" alt="Wedding Event">
-                            <div class="portfolio-overlay">
-                                <h3>Grand Sangeet Night</h3>
-                                <span>Abu Road, Rajasthan</span>
-                            </div>
-                        </div>
+                </div>
+                <div class="port-item gs-port">
+                    <div class="port-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop" alt="Event 3" class="parallax-img">
                     </div>
-                    <div class="portfolio-item birthdays" data-aos="fade-up">
-                        <div class="portfolio-img">
-                            <img src="https://images.unsplash.com/photo-1530103043960-ef38714abb15?q=80&w=2070&auto=format&fit=crop" alt="Birthday Event">
-                            <div class="portfolio-overlay">
-                                <h3>Enchanted Forest Birthday</h3>
-                                <span>Mount Abu, Rajasthan</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-item corporate" data-aos="fade-up">
-                        <div class="portfolio-img">
-                            <img src="https://images.unsplash.com/photo-1475721027785-f74dea327912?q=80&w=2070&auto=format&fit=crop" alt="Corporate Event">
-                            <div class="portfolio-overlay">
-                                <h3>Brand Launch Gala</h3>
-                                <span>Jodhpur, Rajasthan</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-item weddings" data-aos="fade-up">
-                        <div class="portfolio-img">
-                            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=2069&auto=format&fit=crop" alt="Wedding Event">
-                            <div class="portfolio-overlay">
-                                <h3>Luxury Palatial Wedding</h3>
-                                <span>Jaipur, Rajasthan</span>
-                            </div>
-                        </div>
+                    <div class="port-info">
+                        <h4>Luxury Reception</h4>
+                        <p>Udaipur</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Stats Section -->
-        <section class="stats section-padding">
-            <div class="container">
-                <div class="stats-grid">
-                    <div class="stat-item">
-                        <span class="stat-number" data-target="100">0</span><span class="stat-plus">+</span>
-                        <p class="stat-label">Events Executed</p>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-target="8">0</span><span class="stat-plus">+</span>
-                        <p class="stat-label">Years of Experience</p>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-target="50">0</span><span class="stat-plus">+</span>
-                        <p class="stat-label">Corporate Clients</p>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number" data-target="1000">0</span><span class="stat-plus">+</span>
-                        <p class="stat-label">Happy Families</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonials Section -->
-        <section class="testimonials section-padding">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2 class="section-title">What Our Clients Say</h2>
-                    <div class="underline"></div>
-                </div>
-                <div class="testimonials-grid">
-                    <div class="testimonial-card">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="quote">"Sayed The Event Factory made our wedding dream a reality. Every detail was perfect, from the decor to the coordination. Highly recommended!"</p>
-                        <div class="client-info">
-                            <h4 class="client-name">Priya Sharma</h4>
-                            <span class="event-type">Wedding Client</span>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="quote">"The team at Sayed The Event Factory handled our corporate summit with extreme professionalism. Their vision is truly unique."</p>
-                        <div class="client-info">
-                            <h4 class="client-name">Rajiv Mehta</h4>
-                            <span class="event-type">Corporate Client</span>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="quote">"My daughter's birthday was like a fairy tale. The production quality they deliver is something we've never seen before in Abu Road."</p>
-                        <div class="client-info">
-                            <h4 class="client-name">Sneha Gupta</h4>
-                            <span class="event-type">Private Party Client</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Section -->
-        <section class="cta section-padding">
-            <div class="container">
-                <div class="cta-content text-center">
-                    <h2 class="cta-title">Ready to Create Something Extraordinary?</h2>
-                    <p class="cta-text">Let us handle every detail while you enjoy every moment.</p>
-                    <a href="#contact" class="btn btn-primary btn-3d btn-lg">Start Planning Today</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact section-padding">
-            <div class="container">
-                <div class="section-header text-center">
-                    <h2 class="section-title">Get In Touch</h2>
-                    <div class="underline"></div>
-                </div>
-                <div class="contact-grid">
-                    <div class="contact-info">
-                        <h3>Contact Information</h3>
-                        <div class="info-item">
-                            <i class="fa-solid fa-location-dot"></i>
-                            <p>Abu Road, Rajasthan, India</p>
-                        </div>
-                        <div class="info-item">
-                            <i class="fa-solid fa-phone"></i>
-                            <p>+91 9829515356</p>
-
-                        </div>
-                        <div class="info-item">
-                            <i class="fa-solid fa-envelope"></i>
-                            <p>sayedtheeventfactory@gmail.com</p>
-                        </div>
-                        <div class="social-links">
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                    <form class="contact-form" id="main-contact-form">
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label>Full Name</label>
-                                <input type="text" placeholder="John Doe" required>
-                            </div>
-                            <div class="form-group">
-                                <label>Email Address</label>
-                                <input type="email" placeholder="john@example.com" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>Event Type</label>
-                            <select>
-                                <option>Wedding</option>
-                                <option>Corporate</option>
-                                <option>Birthday</option>
-                                <option>Social Gathering</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label>Your Message</label>
-                            <textarea placeholder="Tell us about your event..." rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-3d btn-block">Send Inquiry</button>
-                    </form>
+        <!-- Big CTA -->
+        <section id="contact" class="cta-section">
+            <div class="container text-center">
+                <h2 class="massive-text gs-reveal">Let's Talk.</h2>
+                <p class="cta-sub gs-reveal">Ready to bring your vision to life? Reach out to our team.</p>
+                <div class="cta-links gs-reveal">
+                    <a href="mailto:sayedtheeventfactory@gmail.com" class="hover-link">sayedtheeventfactory@gmail.com</a>
+                    <a href="tel:+919829515356" class="hover-link">+91 9829515356</a>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-about">
-                    <a href="#" class="logo">
-                        <div class="logo-wrapper footer-logo-wrapper">
-                    <img src="logo/logo.png" alt="Sayed The Event Factory Logo" class="brand-logo">
-                        </div>
-                    </a>
-                    <p>Building moments that last a lifetime. Premium event planning in Abu Road and across Rajasthan.</p>
-                </div>
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h3>Contact</h3>
-                    <p>Abu Road, Rajasthan</p>
-                    <p>+91 9829515356</p>
-                    <p>sayedtheeventfactory@gmail.com</p>
-                </div>
+        <div class="container footer-flex">
+            <div class="footer-brand">
+                <div class="logo-text">SAYED<span>.</span></div>
+                <p>&copy; 2026. Abu Road, Rajasthan.</p>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Sayed The Event Factory. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
         </div>
     </footer>
 
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <!-- Custom JS -->
     <script src="js/main.js"></script>
 </body>
